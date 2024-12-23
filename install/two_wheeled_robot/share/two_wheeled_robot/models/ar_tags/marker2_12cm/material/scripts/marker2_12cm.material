@@ -1,14 +1,1 @@
-material ARtrack/marker2_12cm
-{
-	technique
-	{
-		pass
-		{
-			texture_unit
-			{
-				texture marker2_12cm.png
-			}
-		}
-	}
-}
-
+/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot/models/ar_tags/marker2_12cm/material/scripts/marker2_12cm.material

@@ -1,15 +1,1 @@
-material Beer/Diffuse
-{
-  technique
-  {
-    pass
-    {
-      texture_unit
-      {
-        texture beer.png
-        filtering anistropic
-        max_anisotropy 16
-      }
-    }
-  }
-}
+/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot/models/beer/materials/scripts/beer.material

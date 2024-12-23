@@ -198,17 +198,17 @@ hagen_gazebo_uninstall/fast:
 .PHONY : hagen_gazebo_uninstall/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_copy_hagen_gazebo
+# Target rules for targets named ament_cmake_python_symlink_hagen_gazebo
 
 # Build rule for target.
-ament_cmake_python_copy_hagen_gazebo: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_hagen_gazebo
-.PHONY : ament_cmake_python_copy_hagen_gazebo
+ament_cmake_python_symlink_hagen_gazebo: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_hagen_gazebo
+.PHONY : ament_cmake_python_symlink_hagen_gazebo
 
 # fast build rule for target.
-ament_cmake_python_copy_hagen_gazebo/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_hagen_gazebo.dir/build.make CMakeFiles/ament_cmake_python_copy_hagen_gazebo.dir/build
-.PHONY : ament_cmake_python_copy_hagen_gazebo/fast
+ament_cmake_python_symlink_hagen_gazebo/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_hagen_gazebo.dir/build.make CMakeFiles/ament_cmake_python_symlink_hagen_gazebo.dir/build
+.PHONY : ament_cmake_python_symlink_hagen_gazebo/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_hagen_gazebo_egg
@@ -237,7 +237,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_hagen_gazebo_egg"
-	@echo "... ament_cmake_python_copy_hagen_gazebo"
+	@echo "... ament_cmake_python_symlink_hagen_gazebo"
 	@echo "... hagen_gazebo_uninstall"
 	@echo "... uninstall"
 .PHONY : help

@@ -43,31 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo" TYPE DIRECTORY FILES
-    "/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo/config"
-    "/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo/launch"
-    "/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo/meshes"
-    "/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo/rviz"
-    "/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo/hagen_gazebo"
-    "/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo/urdf"
-    "/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo/worlds"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo/environment" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_environment_hooks/pythonpath.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo/environment" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_environment_hooks/pythonpath.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info" TYPE DIRECTORY FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_python/hagen_gazebo/hagen_gazebo.egg-info/")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/local/lib/python3.10/dist-packages/hagen_gazebo" TYPE DIRECTORY FILES "/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo/hagen_gazebo/" REGEX "/[^/]*\\.pyc$" EXCLUDE REGEX "/\\_\\_pycache\\_\\_$" EXCLUDE)
+  include("/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -76,65 +52,6 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
         "/usr/bin/python3" "-m" "compileall"
         "/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo"
       )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/hagen_gazebo")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/hagen_gazebo")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo/environment" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo/environment" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_index/share/ament_index/resource_index/packages/hagen_gazebo")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo/cmake" TYPE FILE FILES
-    "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_core/hagen_gazeboConfig.cmake"
-    "/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_core/hagen_gazeboConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/hagen_gazebo" TYPE FILE FILES "/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

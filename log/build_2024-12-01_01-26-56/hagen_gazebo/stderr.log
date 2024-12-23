@@ -1,0 +1,4 @@
+failed to create symbolic link '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_python/hagen_gazebo/hagen_gazebo' because existing path cannot be removed: Is a directory
+gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_hagen_gazebo.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_hagen_gazebo] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/ament_cmake_python_symlink_hagen_gazebo.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,3 +1,1 @@
-source;share/hagen_gazebo/environment/ament_prefix_path.sh
-source;share/hagen_gazebo/environment/path.sh
-source;share/hagen_gazebo/environment/pythonpath.sh
+/home/rahul/Desktop/riggu_ws/build/hagen_gazebo/ament_cmake_environment_hooks/local_setup.dsv

@@ -1,0 +1,5 @@
+[0.318s] Invoking command in '/home/rahul/Desktop/riggu_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake --build /home/rahul/Desktop/riggu_ws/build/two_wheeled_robot -- -j16 -l16
+[0.363s] failed to create symbolic link '/home/rahul/Desktop/riggu_ws/build/two_wheeled_robot/ament_cmake_python/two_wheeled_robot/two_wheeled_robot' because existing path cannot be removed: Is a directory
+[0.363s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_two_wheeled_robot.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_two_wheeled_robot] Error 1
+[0.363s] gmake[1]: *** [CMakeFiles/Makefile2:138: CMakeFiles/ament_cmake_python_symlink_two_wheeled_robot.dir/all] Error 2
+[0.363s] gmake: *** [Makefile:146: all] Error 2

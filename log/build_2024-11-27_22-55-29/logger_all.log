@@ -1,0 +1,513 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.070s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x723e4da379a0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x723e4db68a90>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x723e4db68a90>>, mixin_verb=('build',))
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.197s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.197s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/rahul/Desktop/riggu_ws'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.197s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.204s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Final Presentation) by extension 'python_setup_py'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extensions ['ignore', 'ignore_ament_install']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extension 'ignore'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extension 'ignore_ament_install'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extensions ['colcon_pkg']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extension 'colcon_pkg'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extensions ['colcon_meta']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extension 'colcon_meta'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extensions ['ros']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extension 'ros'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extensions ['cmake', 'python']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extension 'cmake'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extension 'python'
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extensions ['python_setup_py']
+[0.205s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW1) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW2) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extensions ['ignore', 'ignore_ament_install']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extension 'ignore'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extension 'ignore_ament_install'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extensions ['colcon_pkg']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extension 'colcon_pkg'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extensions ['colcon_meta']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extension 'colcon_meta'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extensions ['ros']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extension 'ros'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extensions ['cmake', 'python']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extension 'cmake'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extension 'python'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extensions ['python_setup_py']
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW3) by extension 'python_setup_py'
+[0.206s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extensions ['ignore', 'ignore_ament_install']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extension 'ignore'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extension 'ignore_ament_install'
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extensions ['colcon_pkg']
+[0.211s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Homeworks/HW4) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Quizes) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extensions ['colcon_meta']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extension 'colcon_meta'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extensions ['ros']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extension 'ros'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extensions ['cmake', 'python']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extension 'cmake'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extension 'python'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extensions ['python_setup_py']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/Textbooks) by extension 'python_setup_py'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extensions ['ignore', 'ignore_ament_install']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extension 'ignore'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extension 'ignore_ament_install'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extensions ['colcon_pkg']
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extension 'colcon_pkg'
+[0.212s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extension 'ros'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extensions ['cmake', 'python']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extension 'cmake'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extension 'python'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extensions ['python_setup_py']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen) by extension 'python_setup_py'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo) by extension 'ignore'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo) by extension 'ignore_ament_install'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo) by extensions ['colcon_pkg']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo) by extension 'colcon_pkg'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo) by extensions ['colcon_meta']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo) by extension 'colcon_meta'
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo) by extensions ['ros']
+[0.213s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo) by extension 'ros'
+[0.214s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_mobile_robots/hagen/hagen_gazebo' with type 'ros.ament_cmake' and name 'hagen_gazebo'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo1) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo1) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo1) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo1) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo1) by extension 'colcon_pkg'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo1) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo1) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo1) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen/hagen_gazebo1) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_mobile_robots/hagen/hagen_gazebo1' with type 'ros.ament_cmake' and name 'hagen_gazebo1'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_control) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_control) by extension 'ignore'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_control) by extension 'ignore_ament_install'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_control) by extensions ['colcon_pkg']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_control) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_control) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_control) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_control) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_control) by extension 'ros'
+[0.215s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_mobile_robots/hagen_control' with type 'ros.ament_python' and name 'hagen_control'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_localization) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/hagen_mapping) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extension 'colcon_pkg'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extensions ['colcon_meta']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extension 'colcon_meta'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extensions ['ros']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extension 'ros'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extensions ['cmake', 'python']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extension 'cmake'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extension 'python'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extensions ['python_setup_py']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_mobile_robots/lectures) by extension 'python_setup_py'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/riggu_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/riggu_nav2) by extension 'ignore'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/riggu_nav2) by extension 'ignore_ament_install'
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/riggu_nav2) by extensions ['colcon_pkg']
+[0.216s] Level 1:colcon.colcon_core.package_identification:_identify(src/riggu_nav2) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/riggu_nav2) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/riggu_nav2) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/riggu_nav2) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/riggu_nav2) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/riggu_nav2' with type 'ros.ament_cmake' and name 'riggu_nav2'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pkg) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pkg) by extension 'ignore_ament_install'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pkg) by extensions ['colcon_pkg']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pkg) by extension 'colcon_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pkg) by extensions ['colcon_meta']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pkg) by extension 'colcon_meta'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pkg) by extensions ['ros']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_pkg) by extension 'ros'
+[0.217s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_pkg' with type 'ros.ament_python' and name 'robot_pkg'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore'
+[0.217s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/rplidar_ros) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rplidar_ros' with type 'ros.ament_cmake' and name 'rplidar_ros'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['ignore', 'ignore_ament_install']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ignore'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ignore_ament_install'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['colcon_pkg']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'colcon_pkg'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['colcon_meta']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'colcon_meta'
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extensions ['ros']
+[0.218s] Level 1:colcon.colcon_core.package_identification:_identify(src/two_wheeled_robot) by extension 'ros'
+[0.218s] DEBUG:colcon.colcon_core.package_identification:Package 'src/two_wheeled_robot' with type 'ros.ament_cmake' and name 'two_wheeled_robot'
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.234s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /home/rahul/Desktop/riggu_ws/install
+[0.235s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 355 installed packages in /opt/ros/humble
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'hagen_control' build argument 'cmake_args' from command line to 'None'
+[0.259s] Level 5:colcon.colcon_core.verb:set package 'hagen_control' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_control' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_control' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_control' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_control' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_control' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_control' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_control' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'hagen_control' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/Desktop/riggu_ws/build/hagen_control', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/Desktop/riggu_ws/install/hagen_control', 'merge_install': False, 'path': '/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen_control', 'symlink_install': True, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'hagen_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo', 'merge_install': False, 'path': '/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo1' build argument 'cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo1' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo1' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo1' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo1' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo1' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo1' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo1' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'hagen_gazebo1' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'hagen_gazebo1' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo1', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo1', 'merge_install': False, 'path': '/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo1', 'symlink_install': True, 'test_result_base': None}
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'riggu_nav2' build argument 'cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'riggu_nav2' build argument 'cmake_target' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'riggu_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'riggu_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'riggu_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'riggu_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'riggu_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'riggu_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.260s] Level 5:colcon.colcon_core.verb:set package 'riggu_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.260s] DEBUG:colcon.colcon_core.verb:Building package 'riggu_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/Desktop/riggu_ws/build/riggu_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/Desktop/riggu_ws/install/riggu_nav2', 'merge_install': False, 'path': '/home/rahul/Desktop/riggu_ws/src/riggu_nav2', 'symlink_install': True, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robot_pkg' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robot_pkg' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robot_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robot_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robot_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robot_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robot_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robot_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'robot_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'robot_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/Desktop/riggu_ws/build/robot_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/Desktop/riggu_ws/install/robot_pkg', 'merge_install': False, 'path': '/home/rahul/Desktop/riggu_ws/src/robot_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'rplidar_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'rplidar_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/Desktop/riggu_ws/build/rplidar_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/Desktop/riggu_ws/install/rplidar_ros', 'merge_install': False, 'path': '/home/rahul/Desktop/riggu_ws/src/rplidar_ros', 'symlink_install': True, 'test_result_base': None}
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_target' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_clean_first' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'cmake_force_configure' from command line to 'False'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'ament_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.261s] Level 5:colcon.colcon_core.verb:set package 'two_wheeled_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.261s] DEBUG:colcon.colcon_core.verb:Building package 'two_wheeled_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/rahul/Desktop/riggu_ws/build/two_wheeled_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/rahul/Desktop/riggu_ws/install/two_wheeled_robot', 'merge_install': False, 'path': '/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot', 'symlink_install': True, 'test_result_base': None}
+[0.261s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.262s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.262s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen_control' with build type 'ament_python'
+[0.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('hagen_control', 'ament_prefix_path')
+[0.264s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/Desktop/riggu_ws/install/hagen_control/share/hagen_control/hook/ament_prefix_path.ps1'
+[0.264s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/Desktop/riggu_ws/install/hagen_control/share/hagen_control/hook/ament_prefix_path.dsv'
+[0.265s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/Desktop/riggu_ws/install/hagen_control/share/hagen_control/hook/ament_prefix_path.sh'
+[0.265s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.265s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.267s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo' with build type 'ament_cmake'
+[0.267s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.269s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo1' with build type 'ament_cmake'
+[0.270s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo1'
+[0.270s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.270s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.272s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/Desktop/riggu_ws/src/riggu_nav2' with build type 'ament_cmake'
+[0.272s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/Desktop/riggu_ws/src/riggu_nav2'
+[0.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.272s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.274s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/rahul/Desktop/riggu_ws/src/robot_pkg' with build type 'ament_python'
+[0.274s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_pkg', 'ament_prefix_path')
+[0.274s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg/hook/ament_prefix_path.ps1'
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg/hook/ament_prefix_path.dsv'
+[0.275s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg/hook/ament_prefix_path.sh'
+[0.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.276s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/Desktop/riggu_ws/src/rplidar_ros' with build type 'ament_cmake'
+[0.279s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/Desktop/riggu_ws/src/rplidar_ros'
+[0.279s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.279s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.282s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot' with build type 'ament_cmake'
+[0.282s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot'
+[0.282s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.282s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.440s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen_control'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake /home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Desktop/riggu_ws/install/hagen_gazebo
+[0.447s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake /home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo1 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Desktop/riggu_ws/install/hagen_gazebo1
+[0.448s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/Desktop/riggu_ws/build/riggu_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake /home/rahul/Desktop/riggu_ws/src/riggu_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Desktop/riggu_ws/install/riggu_nav2
+[0.612s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/rahul/Desktop/riggu_ws/src/robot_pkg'
+[0.613s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.613s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.618s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/Desktop/riggu_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake /home/rahul/Desktop/riggu_ws/src/rplidar_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Desktop/riggu_ws/install/rplidar_ros
+[0.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/Desktop/riggu_ws/build/two_wheeled_robot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake /home/rahul/Desktop/riggu_ws/src/two_wheeled_robot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Desktop/riggu_ws/install/two_wheeled_robot
+[0.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/Desktop/riggu_ws/build/riggu_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake /home/rahul/Desktop/riggu_ws/src/riggu_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Desktop/riggu_ws/install/riggu_nav2
+[0.649s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/Desktop/riggu_ws/build/riggu_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake --build /home/rahul/Desktop/riggu_ws/build/riggu_nav2 -- -j16 -l16
+[0.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/Desktop/riggu_ws/build/riggu_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake --build /home/rahul/Desktop/riggu_ws/build/riggu_nav2 -- -j16 -l16
+[0.709s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/Desktop/riggu_ws/build/riggu_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake --install /home/rahul/Desktop/riggu_ws/build/riggu_nav2
+[0.824s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(riggu_nav2)
+[0.825s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/Desktop/riggu_ws/build/riggu_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake --install /home/rahul/Desktop/riggu_ws/build/riggu_nav2
+[0.829s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2' for CMake module files
+[0.830s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2' for CMake config files
+[0.830s] Level 1:colcon.colcon_core.shell:create_environment_hook('riggu_nav2', 'cmake_prefix_path')
+[0.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/hook/cmake_prefix_path.ps1'
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/hook/cmake_prefix_path.dsv'
+[0.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/hook/cmake_prefix_path.sh'
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/lib'
+[0.831s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/bin'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/lib/pkgconfig/riggu_nav2.pc'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/lib/python3.10/site-packages'
+[0.832s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/bin'
+[0.832s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.ps1'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.dsv'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.sh'
+[0.833s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.bash'
+[0.834s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.zsh'
+[0.835s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/colcon-core/packages/riggu_nav2)
+[0.856s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(riggu_nav2)
+[0.856s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2' for CMake module files
+[0.857s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2' for CMake config files
+[0.857s] Level 1:colcon.colcon_core.shell:create_environment_hook('riggu_nav2', 'cmake_prefix_path')
+[0.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/hook/cmake_prefix_path.ps1'
+[0.858s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/hook/cmake_prefix_path.dsv'
+[0.859s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/hook/cmake_prefix_path.sh'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/lib'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/bin'
+[0.859s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/lib/pkgconfig/riggu_nav2.pc'
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/lib/python3.10/site-packages'
+[0.860s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/bin'
+[0.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.ps1'
+[0.861s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.dsv'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.sh'
+[0.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.bash'
+[0.863s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.zsh'
+[0.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/colcon-core/packages/riggu_nav2)
+[0.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake /home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Desktop/riggu_ws/install/hagen_gazebo
+[0.866s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake --build /home/rahul/Desktop/riggu_ws/build/hagen_gazebo -- -j16 -l16
+[0.892s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/Desktop/riggu_ws/install/hagen_control/share/ament_index/resource_index/packages/hagen_control
+[0.892s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/Desktop/riggu_ws/install/hagen_control/share/hagen_control/package.xml
+[0.893s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control/LQR
+[0.893s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control/MPC
+[0.893s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control/PID
+[0.893s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control/diff_drive
+[0.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/rahul/Desktop/riggu_ws/build/hagen_control': PYTHONPATH=/home/rahul/Desktop/riggu_ws/build/hagen_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rahul/Desktop/riggu_ws/build/hagen_control/build --no-deps symlink_data --force
+[0.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake --build /home/rahul/Desktop/riggu_ws/build/hagen_gazebo -- -j16 -l16
+[0.935s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(hagen_gazebo)
+[0.935s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo' for CMake module files
+[0.936s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo' for CMake config files
+[0.937s] Level 1:colcon.colcon_core.shell:create_environment_hook('hagen_gazebo', 'cmake_prefix_path')
+[0.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/hook/cmake_prefix_path.ps1'
+[0.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/hook/cmake_prefix_path.dsv'
+[0.939s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/hook/cmake_prefix_path.sh'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/bin'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/lib/pkgconfig/hagen_gazebo.pc'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/lib/python3.10/site-packages'
+[0.939s] Level 1:colcon.colcon_core.environment:checking '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/bin'
+[0.940s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/package.ps1'
+[0.940s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/package.dsv'
+[0.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/package.sh'
+[0.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/package.bash'
+[0.941s] INFO:colcon.colcon_core.shell:Creating package script '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/package.zsh'
+[0.941s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/colcon-core/packages/hagen_gazebo)
+[1.592s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.592s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.592s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[1.592s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.596s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[1.596s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.596s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.596s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.608s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.608s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/Desktop/riggu_ws/install/local_setup.ps1'
+[1.609s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rahul/Desktop/riggu_ws/install/_local_setup_util_ps1.py'
+[1.610s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/Desktop/riggu_ws/install/setup.ps1'
+[1.610s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/Desktop/riggu_ws/install/local_setup.sh'
+[1.611s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/rahul/Desktop/riggu_ws/install/_local_setup_util_sh.py'
+[1.611s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/Desktop/riggu_ws/install/setup.sh'
+[1.611s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/Desktop/riggu_ws/install/local_setup.bash'
+[1.612s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/Desktop/riggu_ws/install/setup.bash'
+[1.612s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/rahul/Desktop/riggu_ws/install/local_setup.zsh'
+[1.613s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/rahul/Desktop/riggu_ws/install/setup.zsh'

@@ -1,16 +1,1 @@
-<?xml version="1.0" ?>
-<sdf version="1.5">
-  <model name="desk">
-    <static>true</static>
-    <link name="link">
-      <visual name="visual">
-        <geometry>
-          <mesh>
-            <uri>model://desk/meshes/desk.obj</uri>
-            <scale>0.001 0.001 0.001</scale>
-          </mesh>
-        </geometry>
-      </visual>
-    </link>
-  </model>
-</sdf>
+/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot/models/desk/model(2).sdf

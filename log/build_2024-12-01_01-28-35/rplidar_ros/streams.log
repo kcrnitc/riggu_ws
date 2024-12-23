@@ -1,0 +1,4 @@
+[0.313s] Invoking command in '/home/rahul/Desktop/riggu_ws/build/rplidar_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/lifecyle_ws/install/lifecycle:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/riggu_nav2:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake --build /home/rahul/Desktop/riggu_ws/build/rplidar_ros -- -j16 -l16
+[0.356s] [ 47%] Built target rplidar_composition
+[0.356s] [ 94%] Built target rplidar_node
+[0.357s] [100%] Built target rplidar_client

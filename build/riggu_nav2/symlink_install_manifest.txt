@@ -1,0 +1,15 @@
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/ament_index/resource_index/package_run_dependencies/riggu_nav2
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/ament_index/resource_index/parent_prefix_path/riggu_nav2
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/environment/ament_prefix_path.sh
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/environment/ament_prefix_path.dsv
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/environment/path.sh
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/environment/path.dsv
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/local_setup.bash
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/local_setup.sh
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/local_setup.zsh
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/local_setup.dsv
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.dsv
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/ament_index/resource_index/packages/riggu_nav2
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/cmake/riggu_nav2Config.cmake
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/cmake/riggu_nav2Config-version.cmake
+/home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.xml

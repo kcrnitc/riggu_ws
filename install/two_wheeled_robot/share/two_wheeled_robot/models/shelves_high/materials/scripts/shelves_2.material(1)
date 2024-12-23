@@ -1,14 +1,1 @@
-material Shelves_2/Diffuse
-{
-  receive_shadows off
-}
-
-material Shelves_2/Specular
-{
-  receive_shadows off
-}
-
-material Shelves_2/Normal
-{
-  receive_shadows off
-}
+/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot/models/shelves_high/materials/scripts/shelves_2.material(1)

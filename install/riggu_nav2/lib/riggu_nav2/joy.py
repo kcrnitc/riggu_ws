@@ -59,7 +59,7 @@ class PIDController(Node):
             x=-self.axes[0]
             max_joystick_value_x=0.7
             max_joystick_value_y=1.0
-            max_pwm_value=70
+            max_pwm_value=255
             linear_velocity=y*max_joystick_value_y
             angular_velocity=x*max_joystick_value_x
             

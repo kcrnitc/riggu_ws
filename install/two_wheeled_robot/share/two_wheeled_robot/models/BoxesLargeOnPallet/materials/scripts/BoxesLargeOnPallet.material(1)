@@ -1,4 +1,1 @@
-material BoxesLargeOnPallet/Diffuse
-{
-  receive_shadows off
-}
+/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot/models/BoxesLargeOnPallet/materials/scripts/BoxesLargeOnPallet.material(1)

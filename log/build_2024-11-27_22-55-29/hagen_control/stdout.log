@@ -1,0 +1,20 @@
+running develop
+running egg_info
+writing hagen_control.egg-info/PKG-INFO
+writing dependency_links to hagen_control.egg-info/dependency_links.txt
+writing entry points to hagen_control.egg-info/entry_points.txt
+writing requirements to hagen_control.egg-info/requires.txt
+writing top-level names to hagen_control.egg-info/top_level.txt
+reading manifest file 'hagen_control.egg-info/SOURCES.txt'
+writing manifest file 'hagen_control.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen-control.egg-link (link to .)
+Installing LQR script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+Installing MPC script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+Installing PID script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+Installing diff_drive script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+
+Installed /home/rahul/Desktop/riggu_ws/build/hagen_control
+running symlink_data
+symbolically linking /home/rahul/Desktop/riggu_ws/build/hagen_control/resource/hagen_control -> /home/rahul/Desktop/riggu_ws/install/hagen_control/share/ament_index/resource_index/packages
+symbolically linking /home/rahul/Desktop/riggu_ws/build/hagen_control/package.xml -> /home/rahul/Desktop/riggu_ws/install/hagen_control/share/hagen_control

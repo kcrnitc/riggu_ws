@@ -1,15 +1,1 @@
-material StopLight/Light
-{
-  technique
-  {
-    pass
-    {
-      ambient 0.5 0.5 0.5 1.000000
-
-      texture_unit
-      {
-        texture greyscale_light.png
-      }
-    }
-  }
-}
+/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot/models/stop_light/materials/scripts/stop_light.material(2)

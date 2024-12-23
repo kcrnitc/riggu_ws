@@ -1,17 +1,1 @@
-material vrc/grey_wall
-{
-	receive_shadows off
-	technique
-	{
-		pass
-		{
-			texture_unit
-			{
-				texture grey_wall.png
-				filtering anistropic
-				max_anisotropy 16
-				scale 1 1
-			}
-		}
-	}
-}
+/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot/models/warehouse_walls/materials/scripts/grey_wall.material(1)

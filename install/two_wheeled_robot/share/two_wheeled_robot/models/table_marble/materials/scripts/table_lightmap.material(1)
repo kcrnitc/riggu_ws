@@ -1,17 +1,1 @@
-material Table/Marble_Lightmap
-{
-  technique
-  {
-    pass
-    {      
-      texture_unit
-      {
-        texture marble.png
-      }            
-      texture_unit
-      {
-        texture table_lightmap.png      
-      }
-    }
-  }
-}
+/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot/models/table_marble/materials/scripts/table_lightmap.material(1)

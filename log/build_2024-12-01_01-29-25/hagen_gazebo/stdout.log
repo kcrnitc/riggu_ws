@@ -1,0 +1,47 @@
+Built target ament_cmake_python_symlink_hagen_gazebo
+running egg_info
+writing hagen_gazebo.egg-info/PKG-INFO
+writing dependency_links to hagen_gazebo.egg-info/dependency_links.txt
+writing top-level names to hagen_gazebo.egg-info/top_level.txt
+reading manifest file 'hagen_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'hagen_gazebo.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_hagen_gazebo_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/config/ekf.yaml
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/config/ekf_urdf.yaml
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/launch/hagen.launch.py
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/arm_base.stl
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/bicep.stl
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/elbow.stl
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/robot_base.stl
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/wheel.stl
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/wrist.stl
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/rviz/rviz_basic_settings.rviz
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/rviz/urdf_gazebo_config.rviz
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/hagen_gazebo/__init__.py
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/urdf/hagen_gazebo_with_gazebo_plugins.urdf
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/worlds/basic.world
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/pythonpath.sh
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/pythonpath.dsv
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo/__init__.py
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/ament_index/resource_index/package_run_dependencies/hagen_gazebo
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/ament_index/resource_index/parent_prefix_path/hagen_gazebo
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/ament_prefix_path.sh
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/ament_prefix_path.dsv
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/path.sh
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/path.dsv
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/local_setup.bash
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/local_setup.sh
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/local_setup.zsh
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/local_setup.dsv
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/package.dsv
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/ament_index/resource_index/packages/hagen_gazebo
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/cmake/hagen_gazeboConfig.cmake
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/cmake/hagen_gazeboConfig-version.cmake
+-- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/package.xml
+Listing '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo'...

@@ -1,0 +1,38 @@
+running develop
+Removing /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen-control.egg-link (link to .)
+running egg_info
+writing ../../../build/hagen_control/hagen_control.egg-info/PKG-INFO
+writing dependency_links to ../../../build/hagen_control/hagen_control.egg-info/dependency_links.txt
+writing entry points to ../../../build/hagen_control/hagen_control.egg-info/entry_points.txt
+writing requirements to ../../../build/hagen_control/hagen_control.egg-info/requires.txt
+writing top-level names to ../../../build/hagen_control/hagen_control.egg-info/top_level.txt
+reading manifest file '../../../build/hagen_control/hagen_control.egg-info/SOURCES.txt'
+writing manifest file '../../../build/hagen_control/hagen_control.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control
+copying /home/rahul/Desktop/riggu_ws/build/hagen_control/build/lib/hagen_control/dubins_path.py -> /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control
+copying /home/rahul/Desktop/riggu_ws/build/hagen_control/build/lib/hagen_control/diff_drive_LQR.py -> /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control
+copying /home/rahul/Desktop/riggu_ws/build/hagen_control/build/lib/hagen_control/diff_drive_PID_control.py -> /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control
+copying /home/rahul/Desktop/riggu_ws/build/hagen_control/build/lib/hagen_control/diff_drive_MPC.py -> /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control
+copying /home/rahul/Desktop/riggu_ws/build/hagen_control/build/lib/hagen_control/__init__.py -> /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control
+copying /home/rahul/Desktop/riggu_ws/build/hagen_control/build/lib/hagen_control/hagen_control_strategy.py -> /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control
+byte-compiling /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control/dubins_path.py to dubins_path.cpython-310.pyc
+byte-compiling /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control/diff_drive_LQR.py to diff_drive_LQR.cpython-310.pyc
+byte-compiling /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control/diff_drive_PID_control.py to diff_drive_PID_control.cpython-310.pyc
+byte-compiling /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control/diff_drive_MPC.py to diff_drive_MPC.cpython-310.pyc
+byte-compiling /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control/hagen_control_strategy.py to hagen_control_strategy.cpython-310.pyc
+running install_data
+copying resource/hagen_control -> /home/rahul/Desktop/riggu_ws/install/hagen_control/share/ament_index/resource_index/packages
+copying package.xml -> /home/rahul/Desktop/riggu_ws/install/hagen_control/share/hagen_control
+running install_egg_info
+Copying ../../../build/hagen_control/hagen_control.egg-info to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control-0.0.0-py3.10.egg-info
+running install_scripts
+Installing LQR script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+Installing MPC script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+Installing PID script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+Installing diff_drive script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+writing list of installed files to '/home/rahul/Desktop/riggu_ws/build/hagen_control/install.log'

@@ -1,18 +1,1 @@
-<?xml version="1.0" ?>
-
-<sdf version="1.6">
-  <world name="default">
-
-    <include>
-      <uri>model://sun</uri>
-    </include>
-    <include>
-      <uri>model://ground_plane</uri>
-    </include>
-    <include>
-      <pose>0 0 0.33 0 0 0</pose>
-      <uri>model://hagen</uri>
-    </include>
-
-  </world>
-</sdf>
+/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo1/worlds/hagen_empty.world

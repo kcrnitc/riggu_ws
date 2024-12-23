@@ -1,0 +1,24 @@
+[0.646s] Invoking command in '/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen_control': PYTHONPATH=/home/rahul/Desktop/riggu_ws/build/hagen_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/hagen_control build --build-base /home/rahul/Desktop/riggu_ws/build/hagen_control/build install --record /home/rahul/Desktop/riggu_ws/build/hagen_control/install.log --single-version-externally-managed install_data
+[0.802s] running egg_info
+[0.802s] writing ../../../build/hagen_control/hagen_control.egg-info/PKG-INFO
+[0.803s] writing dependency_links to ../../../build/hagen_control/hagen_control.egg-info/dependency_links.txt
+[0.803s] writing entry points to ../../../build/hagen_control/hagen_control.egg-info/entry_points.txt
+[0.803s] writing requirements to ../../../build/hagen_control/hagen_control.egg-info/requires.txt
+[0.804s] writing top-level names to ../../../build/hagen_control/hagen_control.egg-info/top_level.txt
+[0.805s] reading manifest file '../../../build/hagen_control/hagen_control.egg-info/SOURCES.txt'
+[0.805s] writing manifest file '../../../build/hagen_control/hagen_control.egg-info/SOURCES.txt'
+[0.805s] running build
+[0.805s] running build_py
+[0.806s] running install
+[0.806s] running install_lib
+[0.807s] running install_data
+[0.807s] running install_egg_info
+[0.808s] removing '/home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control-0.0.0-py3.10.egg-info' (and everything under it)
+[0.809s] Copying ../../../build/hagen_control/hagen_control.egg-info to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen_control-0.0.0-py3.10.egg-info
+[0.810s] running install_scripts
+[0.824s] Installing LQR script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+[0.824s] Installing MPC script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+[0.824s] Installing PID script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+[0.824s] Installing diff_drive script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+[0.825s] writing list of installed files to '/home/rahul/Desktop/riggu_ws/build/hagen_control/install.log'
+[0.854s] Invoked command in '/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen_control' returned '0': PYTHONPATH=/home/rahul/Desktop/riggu_ws/build/hagen_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../build/hagen_control build --build-base /home/rahul/Desktop/riggu_ws/build/hagen_control/build install --record /home/rahul/Desktop/riggu_ws/build/hagen_control/install.log --single-version-externally-managed install_data

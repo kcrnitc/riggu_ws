@@ -1,0 +1,23 @@
+[0.632s] Invoking command in '/home/rahul/Desktop/riggu_ws/build/hagen_control': PYTHONPATH=/home/rahul/Desktop/riggu_ws/build/hagen_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/rahul/Desktop/riggu_ws/build/hagen_control/build --no-deps symlink_data --force
+[0.807s] running develop
+[0.807s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.807s]   warnings.warn(
+[0.912s] running egg_info
+[0.912s] writing hagen_control.egg-info/PKG-INFO
+[0.913s] writing dependency_links to hagen_control.egg-info/dependency_links.txt
+[0.913s] writing entry points to hagen_control.egg-info/entry_points.txt
+[0.913s] writing requirements to hagen_control.egg-info/requires.txt
+[0.913s] writing top-level names to hagen_control.egg-info/top_level.txt
+[0.914s] reading manifest file 'hagen_control.egg-info/SOURCES.txt'
+[0.915s] writing manifest file 'hagen_control.egg-info/SOURCES.txt'
+[0.916s] running build_ext
+[0.916s] Creating /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/python3.10/site-packages/hagen-control.egg-link (link to .)
+[0.916s] Installing LQR script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+[0.916s] Installing MPC script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+[0.916s] Installing PID script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+[0.916s] Installing diff_drive script to /home/rahul/Desktop/riggu_ws/install/hagen_control/lib/hagen_control
+[0.916s] 
+[0.916s] Installed /home/rahul/Desktop/riggu_ws/build/hagen_control
+[0.916s] running symlink_data
+[0.916s] symbolically linking /home/rahul/Desktop/riggu_ws/build/hagen_control/resource/hagen_control -> /home/rahul/Desktop/riggu_ws/install/hagen_control/share/ament_index/resource_index/packages
+[0.916s] symbolically linking /home/rahul/Desktop/riggu_ws/build/hagen_control/package.xml -> /home/rahul/Desktop/riggu_ws/install/hagen_control/share/hagen_control

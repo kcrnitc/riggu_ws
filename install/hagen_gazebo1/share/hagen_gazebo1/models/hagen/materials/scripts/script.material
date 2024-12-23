@@ -1,16 +1,1 @@
-material Hagen/fur
-        {
-          receive_shadows off
-          technique
-          {
-            pass
-            {
-              texture_unit
-              {
-                texture sheep.jpg
-                filtering anistropic
-                max_anisotropy 16
-              }
-            }
-          }
-        }
+/home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo1/models/hagen/materials/scripts/script.material

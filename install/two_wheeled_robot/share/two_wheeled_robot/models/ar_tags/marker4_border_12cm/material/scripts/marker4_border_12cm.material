@@ -1,14 +1,1 @@
-material ARtrack/marker4_border_12cm
-{
-	technique
-	{
-		pass
-		{
-			texture_unit
-			{
-				texture marker4_border_12cm.png
-			}
-		}
-	}
-}
-
+/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot/models/ar_tags/marker4_border_12cm/material/scripts/marker4_border_12cm.material

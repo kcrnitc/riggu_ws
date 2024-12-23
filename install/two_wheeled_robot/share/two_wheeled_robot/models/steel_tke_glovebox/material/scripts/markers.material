@@ -1,14 +1,1 @@
-material ARtrack/markers
-{
-	technique
-	{
-		pass
-		{
-			texture_unit
-			{
-				texture markers.png
-			}
-		}
-	}
-}
-
+/home/rahul/Desktop/riggu_ws/src/two_wheeled_robot/models/steel_tke_glovebox/material/scripts/markers.material

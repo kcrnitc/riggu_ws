@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target rplidar_client[0m
+[35m[1mConsolidate compiler generated dependencies of target rplidar_node[0m
+[35m[1mConsolidate compiler generated dependencies of target rplidar_composition[0m
+[  5%] Built target rplidar_client
+[ 52%] Built target rplidar_node
+[100%] Built target rplidar_composition

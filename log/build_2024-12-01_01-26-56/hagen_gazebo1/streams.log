@@ -1,0 +1,68 @@
+[0.171s] Invoking command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/lifecyle_ws/install/lifecycle:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/riggu_nav2:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake /home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo1 -DCMAKE_INSTALL_PREFIX=/home/rahul/Desktop/riggu_ws/install/hagen_gazebo1
+[0.331s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[0.331s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[0.331s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.331s] -- Searching for dependencies of ignition-math6
+[0.331s] -- Looking for OGRE...
+[0.331s] -- Found Ogre Ghadamon (1.9.0)
+[0.331s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[0.331s] -- Looking for OGRE_Paging...
+[0.331s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[0.331s] -- Looking for OGRE_Terrain...
+[0.331s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[0.331s] -- Looking for OGRE_Property...
+[0.331s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[0.331s] -- Looking for OGRE_RTShaderSystem...
+[0.331s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[0.331s] -- Looking for OGRE_Volume...
+[0.331s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[0.331s] -- Looking for OGRE_Overlay...
+[0.332s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[0.332s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[0.333s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[0.333s]   does not match the name of the calling package (gazebo).  This can lead to
+[0.333s]   problems in calling code that expects `find_package` result variables
+[0.333s]   (e.g., `_FOUND`) to follow a certain pattern.
+[0.333s] Call Stack (most recent call first):
+[0.333s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[0.333s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[0.334s]   CMakeLists.txt:6 (find_package)
+[0.334s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.334s] [0m
+[0.335s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.336s] -- Looking for ignition-transport8 -- found version 8.2.1
+[0.336s] -- Searching for dependencies of ignition-transport8
+[0.347s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[0.354s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.359s] -- Checking for module 'libzmq >= 4'
+[0.367s] --   Found libzmq , version 4.3.4
+[0.401s] -- Checking for module 'uuid'
+[0.412s] --   Found uuid, version 2.37.2
+[0.439s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.439s] -- Searching for dependencies of ignition-msgs5
+[0.458s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.463s] -- Checking for module 'tinyxml2'
+[0.475s] --   Found tinyxml2, version 9.0.0
+[0.502s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.503s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.503s] -- Searching for dependencies of ignition-common3
+[0.504s] -- Looking for dlfcn.h - found
+[0.504s] -- Looking for libdl - found
+[0.515s] -- Searching for <ignition-common3> component [graphics]
+[0.515s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[0.515s] -- Searching for dependencies of ignition-common3-graphics
+[0.516s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.517s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[0.518s] -- Searching for dependencies of ignition-fuel_tools4
+[0.552s] -- Checking for module 'jsoncpp'
+[0.563s] --   Found jsoncpp, version 1.9.5
+[0.584s] -- Checking for module 'libzip'
+[0.595s] --   Found libzip, version 1.7.3
+[0.621s] -- Looking for ignition-common3 -- found version 3.14.0
+[0.621s] -- Looking for ignition-math6 -- found version 6.15.1
+[0.621s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[0.623s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.708s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.757s] -- Configuring done
+[0.760s] -- Generating done
+[0.761s] -- Build files have been written to: /home/rahul/Desktop/riggu_ws/build/hagen_gazebo1

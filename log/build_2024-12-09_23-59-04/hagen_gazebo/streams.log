@@ -1,0 +1,51 @@
+[0.177s] Invoking command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/home/rahul/lifecyle_ws/install/lifecycle:/opt/ros/humble /usr/bin/cmake --build /home/rahul/Desktop/riggu_ws/build/hagen_gazebo -- -j16 -l16
+[0.345s] Built target ament_cmake_python_symlink_hagen_gazebo
+[0.370s] running egg_info
+[0.372s] writing hagen_gazebo.egg-info/PKG-INFO
+[0.372s] writing dependency_links to hagen_gazebo.egg-info/dependency_links.txt
+[0.372s] writing top-level names to hagen_gazebo.egg-info/top_level.txt
+[0.373s] reading manifest file 'hagen_gazebo.egg-info/SOURCES.txt'
+[0.374s] writing manifest file 'hagen_gazebo.egg-info/SOURCES.txt'
+[0.401s] Built target ament_cmake_python_build_hagen_gazebo_egg
+[0.416s] Invoked command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/home/rahul/lifecyle_ws/install/lifecycle:/opt/ros/humble /usr/bin/cmake --build /home/rahul/Desktop/riggu_ws/build/hagen_gazebo -- -j16 -l16
+[0.437s] Invoking command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/home/rahul/lifecyle_ws/install/lifecycle:/opt/ros/humble /usr/bin/cmake --install /home/rahul/Desktop/riggu_ws/build/hagen_gazebo
+[0.444s] -- Install configuration: ""
+[0.444s] -- Execute custom install script
+[0.445s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/config/ekf.yaml
+[0.445s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/config/ekf_urdf.yaml
+[0.445s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/launch/hagen.launch.py
+[0.446s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/arm_base.stl
+[0.446s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/bicep.stl
+[0.446s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/elbow.stl
+[0.446s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/robot_base.stl
+[0.446s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/wheel.stl
+[0.447s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/wrist.stl
+[0.447s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/rviz/rviz_basic_settings.rviz
+[0.447s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/rviz/urdf_gazebo_config.rviz
+[0.447s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/hagen_gazebo/__init__.py
+[0.447s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/urdf/hagen_gazebo_with_gazebo_plugins.urdf
+[0.448s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/worlds/basic.world
+[0.448s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/pythonpath.sh
+[0.448s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/pythonpath.dsv
+[0.450s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info/PKG-INFO
+[0.450s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info/SOURCES.txt
+[0.451s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info/dependency_links.txt
+[0.451s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info/top_level.txt
+[0.451s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo/__init__.py
+[0.451s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/ament_index/resource_index/package_run_dependencies/hagen_gazebo
+[0.451s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/ament_index/resource_index/parent_prefix_path/hagen_gazebo
+[0.451s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/ament_prefix_path.sh
+[0.451s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/ament_prefix_path.dsv
+[0.451s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/path.sh
+[0.452s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/path.dsv
+[0.452s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/local_setup.bash
+[0.452s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/local_setup.sh
+[0.452s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/local_setup.zsh
+[0.452s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/local_setup.dsv
+[0.452s] -- Symlinking: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/package.dsv
+[0.461s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/ament_index/resource_index/packages/hagen_gazebo
+[0.461s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/cmake/hagen_gazeboConfig.cmake
+[0.461s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/cmake/hagen_gazeboConfig-version.cmake
+[0.461s] -- Up-to-date symlink: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/package.xml
+[0.502s] Listing '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo'...
+[0.512s] Invoked command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/home/rahul/lifecyle_ws/install/lifecycle:/opt/ros/humble /usr/bin/cmake --install /home/rahul/Desktop/riggu_ws/build/hagen_gazebo
