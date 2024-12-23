@@ -1,0 +1,9 @@
+/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2/CMakeFiles/uninstall.dir
+/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2/CMakeFiles/riggu_nav2_uninstall.dir
+/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2/CMakeFiles/test.dir
+/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2/CMakeFiles/edit_cache.dir
+/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2/CMakeFiles/rebuild_cache.dir
+/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2/CMakeFiles/list_install_components.dir
+/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2/CMakeFiles/install.dir
+/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2/CMakeFiles/install/local.dir
+/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2/CMakeFiles/install/strip.dir

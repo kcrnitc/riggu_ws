@@ -1,0 +1,6 @@
+Invoking command in '/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/acer/Desktop/Riggu/src/riggu_nav2 -DCMAKE_INSTALL_PREFIX=/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2
+Invoked command in '/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/acer/Desktop/Riggu/src/riggu_nav2 -DCMAKE_INSTALL_PREFIX=/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2
+Invoking command in '/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2 -- -j16 -l16
+Invoked command in '/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2 -- -j16 -l16
+Invoking command in '/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2
+Invoked command in '/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2

@@ -1,0 +1,4 @@
+source;share/hagen_gazebo1/local_setup.bash
+source;share/hagen_gazebo1/local_setup.dsv
+source;share/hagen_gazebo1/local_setup.sh
+source;share/hagen_gazebo1/local_setup.zsh

@@ -1,0 +1,17 @@
+package.xml
+setup.cfg
+setup.py
+../../../build/hagen_control/hagen_control.egg-info/PKG-INFO
+../../../build/hagen_control/hagen_control.egg-info/SOURCES.txt
+../../../build/hagen_control/hagen_control.egg-info/dependency_links.txt
+../../../build/hagen_control/hagen_control.egg-info/entry_points.txt
+../../../build/hagen_control/hagen_control.egg-info/requires.txt
+../../../build/hagen_control/hagen_control.egg-info/top_level.txt
+../../../build/hagen_control/hagen_control.egg-info/zip-safe
+hagen_control/__init__.py
+hagen_control/diff_drive_LQR.py
+hagen_control/diff_drive_MPC.py
+hagen_control/diff_drive_PID_control.py
+hagen_control/dubins_path.py
+hagen_control/hagen_control_strategy.py
+resource/hagen_control

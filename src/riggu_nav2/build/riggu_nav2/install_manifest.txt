@@ -1,0 +1,17 @@
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/launch/riggu.launch.py
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/urdf/riggu_urdf
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/ament_index/resource_index/package_run_dependencies/riggu_nav2
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/ament_index/resource_index/parent_prefix_path/riggu_nav2
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/environment/ament_prefix_path.sh
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/environment/ament_prefix_path.dsv
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/environment/path.sh
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/environment/path.dsv
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/local_setup.bash
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/local_setup.sh
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/local_setup.zsh
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/local_setup.dsv
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/package.dsv
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/ament_index/resource_index/packages/riggu_nav2
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/cmake/riggu_nav2Config.cmake
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/cmake/riggu_nav2Config-version.cmake
+/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/package.xml

@@ -1,0 +1,47 @@
+running egg_info
+creating ../../build/robot_pkg/robot_pkg.egg-info
+writing ../../build/robot_pkg/robot_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_pkg/robot_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_pkg/robot_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/robot_pkg/robot_pkg.egg-info/requires.txt
+writing top-level names to ../../build/robot_pkg/robot_pkg.egg-info/top_level.txt
+writing manifest file '../../build/robot_pkg/robot_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/robot_pkg/robot_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/robot_pkg/robot_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/rahul/Desktop/riggu_ws/build/robot_pkg/build
+creating /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib
+creating /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg
+copying robot_pkg/controller.py -> /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg
+copying robot_pkg/robot2.py -> /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg
+copying robot_pkg/__init__.py -> /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg
+copying robot_pkg/joy_value_converter1.py -> /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg
+running install
+running install_lib
+creating /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg
+copying /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg/controller.py -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg
+copying /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg/robot2.py -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg
+copying /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg/__init__.py -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg
+copying /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg/joy_value_converter1.py -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg
+byte-compiling /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg/controller.py to controller.cpython-310.pyc
+byte-compiling /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg/robot2.py to robot2.cpython-310.pyc
+byte-compiling /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg/joy_value_converter1.py to joy_value_converter1.cpython-310.pyc
+running install_data
+creating /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/ament_index
+creating /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/ament_index/resource_index
+creating /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/ament_index/resource_index/packages
+copying resource/robot_pkg -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg
+creating /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg/launch
+copying launch/spawn_robot.launch.py -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg/launch
+creating /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg/urdf
+copying urdf/robot.urdf -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg/urdf
+running install_egg_info
+Copying ../../build/robot_pkg/robot_pkg.egg-info to /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/robot_pkg
+Installing robot2 script to /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/robot_pkg
+writing list of installed files to '/home/rahul/Desktop/riggu_ws/build/robot_pkg/install.log'

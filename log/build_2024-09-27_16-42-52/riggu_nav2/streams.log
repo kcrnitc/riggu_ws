@@ -1,0 +1,54 @@
+[0.180s] Invoking command in '/home/rahul/Desktop/riggu_ws/build/riggu_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake --build /home/rahul/Desktop/riggu_ws/build/riggu_nav2 -- -j16 -l16
+[0.361s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.361s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.362s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.362s] -- Configured cppcheck include dirs: 
+[0.362s] -- Configured cppcheck exclude dirs and/or files: 
+[0.364s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.365s] -- Added test 'lint_cmake' to check CMake code style
+[0.365s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.372s] -- Added test 'uncrustify' to check C / C++ code style
+[0.372s] -- Configured uncrustify additional arguments: 
+[0.372s] -- Added test 'xmllint' to check XML markup files
+[0.373s] -- Configuring done
+[0.375s] -- Generating done
+[0.375s] -- Build files have been written to: /home/rahul/Desktop/riggu_ws/build/riggu_nav2
+[0.402s] Invoked command in '/home/rahul/Desktop/riggu_ws/build/riggu_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake --build /home/rahul/Desktop/riggu_ws/build/riggu_nav2 -- -j16 -l16
+[0.441s] Invoking command in '/home/rahul/Desktop/riggu_ws/build/riggu_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake --install /home/rahul/Desktop/riggu_ws/build/riggu_nav2
+[0.450s] -- Install configuration: ""
+[0.450s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/launch
+[0.450s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/launch/nav2_navigation_launch.py
+[0.450s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/launch/riggu_final.launch.py
+[0.451s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/launch/riggu.launch.py
+[0.451s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/urdf
+[0.451s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/urdf/riggu_urdf1.urdf
+[0.451s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/urdf/riggu_final.urdf
+[0.451s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/urdf/riggu_urdf.urdf
+[0.451s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/worlds
+[0.451s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/worlds/empty.world
+[0.451s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/rviz
+[0.451s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/rviz/urdf_config.rviz
+[0.452s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/config
+[0.452s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/config/laser_scan.yaml
+[0.452s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/config/mapper_params_online_async.yaml
+[0.452s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/config/ekf.yaml
+[0.452s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/lib/riggu_nav2/joy.py
+[0.452s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/lib/riggu_nav2/bot_vel_pub.py
+[0.452s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/lib/riggu_nav2/pid_control.py
+[0.452s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/lib/riggu_nav2/pid_vel.py
+[0.452s] -- Installing: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/ament_index/resource_index/package_run_dependencies/riggu_nav2
+[0.452s] -- Installing: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/ament_index/resource_index/parent_prefix_path/riggu_nav2
+[0.453s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/environment/ament_prefix_path.sh
+[0.453s] -- Installing: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/environment/ament_prefix_path.dsv
+[0.453s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/environment/path.sh
+[0.453s] -- Installing: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/environment/path.dsv
+[0.453s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/local_setup.bash
+[0.453s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/local_setup.sh
+[0.453s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/local_setup.zsh
+[0.453s] -- Installing: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/local_setup.dsv
+[0.454s] -- Installing: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.dsv
+[0.454s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/ament_index/resource_index/packages/riggu_nav2
+[0.454s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/cmake/riggu_nav2Config.cmake
+[0.456s] -- Up-to-date: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/cmake/riggu_nav2Config-version.cmake
+[0.456s] -- Installing: /home/rahul/Desktop/riggu_ws/install/riggu_nav2/share/riggu_nav2/package.xml
+[0.456s] Invoked command in '/home/rahul/Desktop/riggu_ws/build/riggu_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/home/rahul/Desktop/riggu_ws/install/hagen_control:/opt/ros/humble /usr/bin/cmake --install /home/rahul/Desktop/riggu_ws/build/riggu_nav2

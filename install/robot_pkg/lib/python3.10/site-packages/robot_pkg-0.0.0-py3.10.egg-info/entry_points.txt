@@ -1,0 +1,4 @@
+[console_scripts]
+controller = robot_pkg.controller:main
+robot2 = robot_pkg.robot2:main
+

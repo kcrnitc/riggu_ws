@@ -1,0 +1,24 @@
+running egg_info
+writing ../../build/robot_pkg/robot_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/robot_pkg/robot_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/robot_pkg/robot_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/robot_pkg/robot_pkg.egg-info/requires.txt
+writing top-level names to ../../build/robot_pkg/robot_pkg.egg-info/top_level.txt
+reading manifest file '../../build/robot_pkg/robot_pkg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/robot_pkg/robot_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying robot_pkg/robot2.py -> /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg
+running install
+running install_lib
+copying /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg/robot2.py -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg
+byte-compiling /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg/robot2.py to robot2.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/robot_pkg/robot_pkg.egg-info to /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/robot_pkg
+Installing robot2 script to /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/robot_pkg
+writing list of installed files to '/home/rahul/Desktop/riggu_ws/build/robot_pkg/install.log'

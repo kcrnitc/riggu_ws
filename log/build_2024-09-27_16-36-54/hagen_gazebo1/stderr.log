@@ -1,0 +1,4 @@
+[33mCMake Warning at CMakeLists.txt:8 (message):
+  Gazebo not found, proceeding without that simulator.
+
+[0m

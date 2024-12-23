@@ -1,0 +1,104 @@
+[0.163s] Invoking command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/opt/ros/humble /usr/bin/cmake /home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo -DCMAKE_INSTALL_PREFIX=/home/rahul/Desktop/riggu_ws/install/hagen_gazebo
+[0.339s] -- The C compiler identification is GNU 11.4.0
+[0.339s] -- The CXX compiler identification is GNU 11.4.0
+[0.339s] -- Detecting C compiler ABI info
+[0.357s] -- Detecting C compiler ABI info - done
+[0.367s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.367s] -- Detecting C compile features
+[0.368s] -- Detecting C compile features - done
+[0.371s] -- Detecting CXX compiler ABI info
+[0.443s] -- Detecting CXX compiler ABI info - done
+[0.448s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.449s] -- Detecting CXX compile features
+[0.449s] -- Detecting CXX compile features - done
+[0.452s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.589s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.764s] -- Found rclcpp: 16.0.10 (/opt/ros/humble/share/rclcpp/cmake)
+[0.911s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.929s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.943s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.962s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.998s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.104s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.125s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.143s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.144s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.144s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.144s] -- Looking for pthread.h
+[1.144s] -- Looking for pthread.h - found
+[1.144s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.144s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.144s] -- Found Threads: TRUE  
+[1.183s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.245s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.307s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.309s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.309s] -- Added test 'lint_cmake' to check CMake code style
+[1.310s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.311s] -- Added test 'xmllint' to check XML markup files
+[1.312s] -- Configuring done
+[1.314s] -- Generating done
+[1.315s] -- Build files have been written to: /home/rahul/Desktop/riggu_ws/build/hagen_gazebo
+[1.322s] Invoked command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/opt/ros/humble /usr/bin/cmake /home/rahul/Desktop/riggu_ws/src/autonomous_mobile_robots/hagen/hagen_gazebo -DCMAKE_INSTALL_PREFIX=/home/rahul/Desktop/riggu_ws/install/hagen_gazebo
+[1.323s] Invoking command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rahul/Desktop/riggu_ws/build/hagen_gazebo -- -j16 -l16
+[1.363s] Built target ament_cmake_python_copy_hagen_gazebo
+[1.505s] running egg_info
+[1.505s] creating hagen_gazebo.egg-info
+[1.505s] writing hagen_gazebo.egg-info/PKG-INFO
+[1.505s] writing dependency_links to hagen_gazebo.egg-info/dependency_links.txt
+[1.505s] writing top-level names to hagen_gazebo.egg-info/top_level.txt
+[1.505s] writing manifest file 'hagen_gazebo.egg-info/SOURCES.txt'
+[1.507s] reading manifest file 'hagen_gazebo.egg-info/SOURCES.txt'
+[1.507s] writing manifest file 'hagen_gazebo.egg-info/SOURCES.txt'
+[1.525s] Built target ament_cmake_python_build_hagen_gazebo_egg
+[1.535s] Invoked command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/opt/ros/humble /usr/bin/cmake --build /home/rahul/Desktop/riggu_ws/build/hagen_gazebo -- -j16 -l16
+[1.554s] Invoking command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rahul/Desktop/riggu_ws/build/hagen_gazebo
+[1.561s] -- Install configuration: ""
+[1.561s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/config
+[1.562s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/config/ekf_urdf.yaml
+[1.562s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/config/ekf.yaml
+[1.562s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/launch
+[1.562s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/launch/hagen.launch.py
+[1.562s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes
+[1.562s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/bicep.stl
+[1.562s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/robot_base.stl
+[1.562s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/arm_base.stl
+[1.563s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/wheel.stl
+[1.563s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/elbow.stl
+[1.563s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/meshes/wrist.stl
+[1.563s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/rviz
+[1.564s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/rviz/rviz_basic_settings.rviz
+[1.564s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/rviz/urdf_gazebo_config.rviz
+[1.564s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/hagen_gazebo
+[1.564s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/hagen_gazebo/__init__.py
+[1.564s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/urdf
+[1.564s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/urdf/hagen_gazebo_with_gazebo_plugins.urdf
+[1.564s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/worlds
+[1.564s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/worlds/basic.world
+[1.564s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/pythonpath.sh
+[1.564s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/pythonpath.dsv
+[1.565s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info
+[1.565s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info/top_level.txt
+[1.565s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.565s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.565s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo-1.0.0-py3.10.egg-info/PKG-INFO
+[1.565s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo
+[1.565s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo/__init__.py
+[1.586s] Listing '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo'...
+[1.586s] Compiling '/home/rahul/Desktop/riggu_ws/install/hagen_gazebo/local/lib/python3.10/dist-packages/hagen_gazebo/__init__.py'...
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/ament_index/resource_index/package_run_dependencies/hagen_gazebo
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/ament_index/resource_index/parent_prefix_path/hagen_gazebo
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/ament_prefix_path.sh
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/ament_prefix_path.dsv
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/path.sh
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/environment/path.dsv
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/local_setup.bash
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/local_setup.sh
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/local_setup.zsh
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/local_setup.dsv
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/package.dsv
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/ament_index/resource_index/packages/hagen_gazebo
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/cmake/hagen_gazeboConfig.cmake
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/cmake/hagen_gazeboConfig-version.cmake
+[1.590s] -- Installing: /home/rahul/Desktop/riggu_ws/install/hagen_gazebo/share/hagen_gazebo/package.xml
+[1.592s] Invoked command in '/home/rahul/Desktop/riggu_ws/build/hagen_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/rahul/Desktop/riggu_ws/install/robot_pkg:/opt/ros/humble /usr/bin/cmake --install /home/rahul/Desktop/riggu_ws/build/hagen_gazebo

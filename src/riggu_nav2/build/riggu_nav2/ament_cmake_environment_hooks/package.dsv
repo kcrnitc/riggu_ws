@@ -1,0 +1,4 @@
+source;share/riggu_nav2/local_setup.bash
+source;share/riggu_nav2/local_setup.dsv
+source;share/riggu_nav2/local_setup.sh
+source;share/riggu_nav2/local_setup.zsh

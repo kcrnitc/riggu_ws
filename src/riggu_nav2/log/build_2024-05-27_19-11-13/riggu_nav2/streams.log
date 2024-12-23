@@ -1,0 +1,53 @@
+[0.008s] Invoking command in '/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/acer/Desktop/Riggu/src/riggu_nav2 -DCMAKE_INSTALL_PREFIX=/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2
+[0.045s] -- The C compiler identification is GNU 11.4.0
+[0.093s] -- The CXX compiler identification is GNU 11.4.0
+[0.098s] -- Detecting C compiler ABI info
+[0.149s] -- Detecting C compiler ABI info - done
+[0.157s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.157s] -- Detecting C compile features
+[0.157s] -- Detecting C compile features - done
+[0.159s] -- Detecting CXX compiler ABI info
+[0.221s] -- Detecting CXX compiler ABI info - done
+[0.226s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.226s] -- Detecting CXX compile features
+[0.227s] -- Detecting CXX compile features - done
+[0.228s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.338s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.407s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.471s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.472s] -- Configured cppcheck include dirs: 
+[0.472s] -- Configured cppcheck exclude dirs and/or files: 
+[0.472s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.473s] -- Added test 'lint_cmake' to check CMake code style
+[0.474s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.476s] -- Added test 'uncrustify' to check C / C++ code style
+[0.476s] -- Configured uncrustify additional arguments: 
+[0.477s] -- Added test 'xmllint' to check XML markup files
+[0.477s] -- Configuring done
+[0.479s] -- Generating done
+[0.480s] -- Build files have been written to: /home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2
+[0.486s] Invoked command in '/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/acer/Desktop/Riggu/src/riggu_nav2 -DCMAKE_INSTALL_PREFIX=/home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2
+[0.487s] Invoking command in '/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2 -- -j16 -l16
+[0.513s] Invoked command in '/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2 -- -j16 -l16
+[0.542s] Invoking command in '/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2
+[0.547s] -- Install configuration: ""
+[0.547s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/launch
+[0.547s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/launch/riggu.launch.py
+[0.547s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/urdf
+[0.547s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/urdf/riggu_urdf
+[0.547s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/ament_index/resource_index/package_run_dependencies/riggu_nav2
+[0.547s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/ament_index/resource_index/parent_prefix_path/riggu_nav2
+[0.547s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/environment/ament_prefix_path.sh
+[0.548s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/environment/ament_prefix_path.dsv
+[0.548s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/environment/path.sh
+[0.548s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/environment/path.dsv
+[0.548s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/local_setup.bash
+[0.548s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/local_setup.sh
+[0.548s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/local_setup.zsh
+[0.548s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/local_setup.dsv
+[0.548s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/package.dsv
+[0.549s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/ament_index/resource_index/packages/riggu_nav2
+[0.549s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/cmake/riggu_nav2Config.cmake
+[0.549s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/cmake/riggu_nav2Config-version.cmake
+[0.549s] -- Installing: /home/acer/Desktop/Riggu/src/riggu_nav2/install/riggu_nav2/share/riggu_nav2/package.xml
+[0.551s] Invoked command in '/home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/acer/Desktop/Riggu/src/riggu_nav2/build/riggu_nav2

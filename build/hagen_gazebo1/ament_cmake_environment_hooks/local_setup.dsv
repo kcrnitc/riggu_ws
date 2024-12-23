@@ -1,0 +1,4 @@
+source;share/hagen_gazebo1/environment/ament_prefix_path.sh
+source;share/hagen_gazebo1/environment/hagen_gazebo1.sh
+source;share/hagen_gazebo1/environment/path.sh
+source;share/hagen_gazebo1/environment/hagen_gazebo1.dsv

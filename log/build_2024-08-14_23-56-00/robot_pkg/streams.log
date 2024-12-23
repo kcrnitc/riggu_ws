@@ -1,0 +1,49 @@
+[0.340s] Invoking command in '/home/rahul/Desktop/riggu_ws/src/robot_pkg': PYTHONPATH=/home/rahul/Desktop/riggu_ws/build/robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_pkg build --build-base /home/rahul/Desktop/riggu_ws/build/robot_pkg/build install --record /home/rahul/Desktop/riggu_ws/build/robot_pkg/install.log --single-version-externally-managed install_data
+[0.662s] running egg_info
+[0.663s] creating ../../build/robot_pkg/robot_pkg.egg-info
+[0.663s] writing ../../build/robot_pkg/robot_pkg.egg-info/PKG-INFO
+[0.663s] writing dependency_links to ../../build/robot_pkg/robot_pkg.egg-info/dependency_links.txt
+[0.663s] writing entry points to ../../build/robot_pkg/robot_pkg.egg-info/entry_points.txt
+[0.663s] writing requirements to ../../build/robot_pkg/robot_pkg.egg-info/requires.txt
+[0.663s] writing top-level names to ../../build/robot_pkg/robot_pkg.egg-info/top_level.txt
+[0.666s] writing manifest file '../../build/robot_pkg/robot_pkg.egg-info/SOURCES.txt'
+[0.668s] reading manifest file '../../build/robot_pkg/robot_pkg.egg-info/SOURCES.txt'
+[0.668s] adding license file 'LICENSE'
+[0.670s] writing manifest file '../../build/robot_pkg/robot_pkg.egg-info/SOURCES.txt'
+[0.670s] running build
+[0.670s] running build_py
+[0.670s] creating /home/rahul/Desktop/riggu_ws/build/robot_pkg/build
+[0.670s] creating /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib
+[0.670s] creating /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg
+[0.670s] copying robot_pkg/controller.py -> /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg
+[0.670s] copying robot_pkg/robot2.py -> /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg
+[0.670s] copying robot_pkg/__init__.py -> /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg
+[0.671s] copying robot_pkg/joy_value_converter1.py -> /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg
+[0.671s] running install
+[0.671s] running install_lib
+[0.671s] creating /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg
+[0.671s] copying /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg/controller.py -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg
+[0.671s] copying /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg/robot2.py -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg
+[0.671s] copying /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg/__init__.py -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg
+[0.671s] copying /home/rahul/Desktop/riggu_ws/build/robot_pkg/build/lib/robot_pkg/joy_value_converter1.py -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg
+[0.673s] byte-compiling /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg/controller.py to controller.cpython-310.pyc
+[0.673s] byte-compiling /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg/robot2.py to robot2.cpython-310.pyc
+[0.676s] byte-compiling /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg/__init__.py to __init__.cpython-310.pyc
+[0.676s] byte-compiling /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg/joy_value_converter1.py to joy_value_converter1.cpython-310.pyc
+[0.676s] running install_data
+[0.676s] creating /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/ament_index
+[0.676s] creating /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/ament_index/resource_index
+[0.676s] creating /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/ament_index/resource_index/packages
+[0.676s] copying resource/robot_pkg -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/ament_index/resource_index/packages
+[0.676s] copying package.xml -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg
+[0.677s] creating /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg/launch
+[0.677s] copying launch/spawn_robot.launch.py -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg/launch
+[0.677s] creating /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg/urdf
+[0.677s] copying urdf/robot.urdf -> /home/rahul/Desktop/riggu_ws/install/robot_pkg/share/robot_pkg/urdf
+[0.677s] running install_egg_info
+[0.679s] Copying ../../build/robot_pkg/robot_pkg.egg-info to /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages/robot_pkg-0.0.0-py3.10.egg-info
+[0.679s] running install_scripts
+[0.687s] Installing controller script to /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/robot_pkg
+[0.687s] Installing robot2 script to /home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/robot_pkg
+[0.687s] writing list of installed files to '/home/rahul/Desktop/riggu_ws/build/robot_pkg/install.log'
+[0.687s] Invoked command in '/home/rahul/Desktop/riggu_ws/src/robot_pkg' returned '0': PYTHONPATH=/home/rahul/Desktop/riggu_ws/build/robot_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/rahul/Desktop/riggu_ws/install/robot_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/robot_pkg build --build-base /home/rahul/Desktop/riggu_ws/build/robot_pkg/build install --record /home/rahul/Desktop/riggu_ws/build/robot_pkg/install.log --single-version-externally-managed install_data
